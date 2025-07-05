@@ -5,8 +5,8 @@
 
   - name: Download jar file
     get_url:
-      url: http://13.215.161.1:8081/repository/maven-releases/todorest-0.0.1-SNAPSHOT.jar
+      url: http://18.222.127.157:8081/repository/maven-releases/todorest-anil.jar
       dest: /home/ubuntu/
 
   - name: run jar file
-    shell: nohup java -jar todorest-0.0.1-SNAPSHOT.jar /tmp 2>> /dev/null >> /dev/null & 
+    shell: nohup java -jar todorest-anil.jar /tmp 2>> /dev/null >> /dev/null & 
